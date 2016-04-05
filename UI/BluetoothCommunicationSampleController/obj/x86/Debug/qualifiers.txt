@@ -1,0 +1,4 @@
+Scale=80
+Scale=180
+Scale=140
+Scale=100

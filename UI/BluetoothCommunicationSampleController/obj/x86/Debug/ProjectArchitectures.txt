@@ -1,0 +1,1 @@
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\SmartHome.csproj;x86

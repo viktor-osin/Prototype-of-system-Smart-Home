@@ -1,0 +1,8 @@
+﻿[ResourceMetadata]
+"ResourceId"			"filemap.scale-180"
+"ResourceDimensions"		"scale-180"
+
+[Files]
+"C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Release\filemap.scale-180.pri"			"resources.pri"
+"C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Release\PackageLayout\Assets\SplashScreen.scale-180.png"			"Assets\SplashScreen.scale-180.png"
+"C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Release\PackageLayout\Assets\Logo.scale-180.png"			"Assets\Logo.scale-180.png"

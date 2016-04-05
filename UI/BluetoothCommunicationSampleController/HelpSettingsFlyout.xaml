@@ -1,0 +1,56 @@
+﻿<SettingsFlyout
+    x:Class="SmartHome.HelpSettingsFlyout"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SmartHome"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="Раздел помощи"
+    Width="500">
+
+    <!-- The width of a SettingsFlyout is adjustable (default width is 346px) -->
+    <!-- The SettingsFlyout control automatically adjusts to match screen height -->
+
+    <!-- This StackPanel organizes the flyout's content sections vertically -->
+    <StackPanel VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+
+        <!-- The StackPanel(s) below define individual content sections -->
+
+        <!-- Content Section 1-->
+        <StackPanel Style="{StaticResource SettingsFlyoutSectionStyle}" >
+
+            <!-- Section 1 header -->
+            <TextBlock Style="{StaticResource TitleTextBlockStyle}" FontSize="20" Width="414" >
+            	<Run Text="У вас возникли затруднения при работе с приложением?  "/>
+            	<LineBreak/>
+            	<Run Text="Мы постараемся вам помочь..."/>
+            </TextBlock>
+
+            <!-- Section 1 body -->
+            <TextBlock Style="{StaticResource BodyTextBlockStyle}" FontSize="18" Margin="0,10,0,25" TextWrapping="Wrap">
+                <TextBlock.Text>
+                    <!-- Replace with your own Help content -->
+                    Выберите интересующий вас вопрос из списка ниже и ознакомьтесь с инструкциями:
+                </TextBlock.Text>
+            </TextBlock>
+
+            <!--New TextBlock-->
+            <TextBlock Style="{StaticResource BodyTextBlockStyle}" FontSize="18">
+                <TextBlock.Text>
+                    Не нашли интересующий вас вопрос?
+                    Пришлите его нам на электронный адрес:
+                </TextBlock.Text>
+            </TextBlock>
+
+            <HyperlinkButton FontSize="18" NavigateUri="mailto:lettersmarthome@gmail.com" HorizontalAlignment="Center" Content="LetterSmartHome@gmail.com" Click="HyperlinkButton_Click" Margin="0,10,0,5"/>
+
+            <HyperlinkButton FontSize="18" NavigateUri="mailto:lettersmarthome@mail.ru" HorizontalAlignment="Center"   Content="LetterSmartHome@mail.ru" Click="HyperlinkButton_Click"/>
+        </StackPanel>
+
+
+        <!-- Define more Content Sections below as necessary -->
+
+    </StackPanel>
+</SettingsFlyout>
+

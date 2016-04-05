@@ -1,0 +1,1 @@
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\BluetoothCommunicationSampleController.csproj;x64

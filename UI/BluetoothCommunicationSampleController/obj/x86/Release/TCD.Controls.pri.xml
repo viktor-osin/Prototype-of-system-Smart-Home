@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="TCD.Controls" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="TCD.Controls">
+				<NamedResource name="LabeledProgressBar.xbf" uri="ms-resource://TCD.Controls/Files/TCD.Controls/LabeledProgressBar.xbf">
+					<Candidate type="Path">
+						<Value>TCD.Controls\LabeledProgressBar.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ResourceHoldingUserControl.xbf" uri="ms-resource://TCD.Controls/Files/TCD.Controls/ResourceHoldingUserControl.xbf">
+					<Candidate type="Path">
+						<Value>TCD.Controls\ResourceHoldingUserControl.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="TCD.Controls.xr.xml" uri="ms-resource://TCD.Controls/Files/TCD.Controls/TCD.Controls.xr.xml">
+					<Candidate type="Path">
+						<Value>TCD.Controls\TCD.Controls.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

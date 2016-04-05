@@ -1,0 +1,19 @@
+﻿<UserControl
+    x:Class="TCD.Controls.ResourceHoldingUserControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TCD.Controls"
+    >
+
+    <UserControl.Resources>
+        <DataTemplate x:Key="ComboBoxEnumItemTemplate">
+            <Grid>
+                <Grid.Resources>
+                    <local:EnumNameConverter x:Key="EnumNameConverter" />
+                </Grid.Resources>
+                <TextBlock Text="{Binding Converter={StaticResource EnumNameConverter}}" />
+            </Grid>
+        </DataTemplate>
+    </UserControl.Resources>
+</UserControl>
+
