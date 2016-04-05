@@ -1,0 +1,23 @@
+﻿[ResourceMetadata]
+"ResourceDimensions"		"scale-100"
+"ResourceDimensions"		"language-ru"
+
+[Files]
+"C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x64\Release\filemap.pri"			"resources.pri"
+"C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x64\Release\PackageLayout\TCD.Controls.dll"			"TCD.Controls.dll"
+"C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x64\Release\PackageLayout\MainPage.xbf"			"MainPage.xbf"
+"C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x64\Release\PackageLayout\BluetoothCommunicationSampleController.xr.xml"			"BluetoothCommunicationSampleController.xr.xml"
+"C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x64\Release\PackageLayout\BluetoothCommunicationSampleController.exe"			"BluetoothCommunicationSampleController.exe"
+"C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x64\Release\PackageLayout\App.xbf"			"App.xbf"
+"C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x64\Release\PackageLayout\TCD.Controls\TCD.Controls.xr.xml"			"TCD.Controls\TCD.Controls.xr.xml"
+"C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x64\Release\PackageLayout\TCD.Controls\ResourceHoldingUserControl.xbf"			"TCD.Controls\ResourceHoldingUserControl.xbf"
+"C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x64\Release\PackageLayout\TCD.Controls\LabeledProgressBar.xbf"			"TCD.Controls\LabeledProgressBar.xbf"
+"C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x64\Release\PackageLayout\Assets\Wide310x150Logo.scale-100.png"			"Assets\Wide310x150Logo.scale-100.png"
+"C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x64\Release\PackageLayout\Assets\StoreLogo.scale-100.png"			"Assets\StoreLogo.scale-100.png"
+"C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x64\Release\PackageLayout\Assets\Square70x70Logo.scale-100.png"			"Assets\Square70x70Logo.scale-100.png"
+"C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x64\Release\PackageLayout\Assets\Square310x310Logo.scale-100.png"			"Assets\Square310x310Logo.scale-100.png"
+"C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x64\Release\PackageLayout\Assets\SplashScreen.scale-100.png"			"Assets\SplashScreen.scale-100.png"
+"C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x64\Release\PackageLayout\Assets\SmallLogo.scale-100.png"			"Assets\SmallLogo.scale-100.png"
+"C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x64\Release\PackageLayout\Assets\Logo.scale-80.png"			"Assets\Logo.scale-80.png"
+"C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x64\Release\PackageLayout\Assets\Logo.scale-100.png"			"Assets\Logo.scale-100.png"
+"C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x64\Release\PackageLayout\Assets\BadgeLogo.scale-100.png"			"Assets\BadgeLogo.scale-100.png"

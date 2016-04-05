@@ -1,0 +1,83 @@
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\bin\x86\Debug\App.xbf
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\bin\x86\Debug\MainPage.xbf
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\bin\x86\Debug\BluetoothCommunicationSampleController.exe
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\bin\x86\Debug\BluetoothCommunicationSampleController.pdb
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\bin\x86\Debug\resources.pri
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\bin\x86\Debug\AppxManifest.xml
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\bin\x86\Debug\BluetoothCommunicationSampleController.build.appxrecipe
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\obj\x86\Debug\App.g.i.cs
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\obj\x86\Debug\App.g.cs
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\obj\x86\Debug\MainPage.g.i.cs
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\obj\x86\Debug\MainPage.g.cs
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\obj\x86\Debug\XamlTypeInfo.g.cs
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\obj\x86\Debug\App.xaml
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\obj\x86\Debug\MainPage.xaml
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\obj\x86\Debug\App.xbf
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\obj\x86\Debug\MainPage.xbf
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\obj\x86\Debug\XamlSaveStateFile.xml
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\obj\x86\Debug\BluetoothCommunicationSampleController.exe
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\obj\x86\Debug\BluetoothCommunicationSampleController.pdb
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\obj\x86\Debug\priconfig.xml
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\obj\x86\Debug\priconfig.xml.intermediate
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\obj\x86\Debug\layout.resfiles
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\obj\x86\Debug\layout.resfiles.intermediate
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\obj\x86\Debug\resources.resfiles
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\obj\x86\Debug\resources.resfiles.intermediate
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\obj\x86\Debug\pri.resfiles
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\obj\x86\Debug\pri.resfiles.intermediate
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\obj\x86\Debug\qualifiers.txt
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\obj\x86\Debug\qualifiers.txt.intermediate
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\obj\x86\Debug\ProjectArchitectures.txt
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\bin\x86\Debug\TCD.Controls.dll
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\bin\x86\Debug\TCD.Controls.pri
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\obj\x86\Debug\BluetoothCommunicationSampleController.csprojResolveAssemblyReference.cache
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\obj\x86\Debug\BluetoothCommunicationSampleController.csproj.GenerateResource.Cache
+N:\DevTemp\VS 2013 Projects\Arduino\BluetoothCommunicationSample\BluetoothCommunicationSampleController\obj\x86\Debug\TCD.Controls.pri.xml
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\bin\x86\Debug\App.xbf
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\bin\x86\Debug\MainPage.xbf
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\bin\x86\Debug\resources.pri
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\bin\x86\Debug\AppxManifest.xml
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\bin\x86\Debug\BluetoothCommunicationSampleController.build.appxrecipe
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\bin\x86\Debug\TCD.Controls.dll
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\bin\x86\Debug\TCD.Controls.pri
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\BluetoothCommunicationSampleController.csprojResolveAssemblyReference.cache
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\App.g.i.cs
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\App.g.cs
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\MainPage.g.cs
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\App.xaml
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\MainPage.xaml
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\App.xbf
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\MainPage.xbf
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\XamlSaveStateFile.xml
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\BluetoothCommunicationSampleController.csproj.GenerateResource.Cache
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\priconfig.xml
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\layout.resfiles
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\layout.resfiles.intermediate
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\resources.resfiles
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\pri.resfiles
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\qualifiers.txt
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\TCD.Controls.pri.xml
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\HelpSettingsFlyout.g.i.cs
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\HelpSettingsFlyout.g.cs
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\HelpSettingsFlyout.xaml
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\HelpSettingsFlyout.xbf
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\bin\x86\Debug\HelpSettingsFlyout.xbf
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\bin\x86\Debug\SendSettingsFlyout.xbf
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\SendSettingsFlyout.g.i.cs
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\SendSettingsFlyout.g.cs
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\SendSettingsFlyout.xaml
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\SendSettingsFlyout.xbf
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\bin\x86\Debug\SmartHome.xr.xml
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\bin\x86\Debug\SmartHome.exe
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\bin\x86\Debug\SmartHome.pdb
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\SmartHome.exe
+C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\SmartHome.pdb

@@ -1,0 +1,92 @@
+﻿<Page
+    x:Class="SmartHome.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SmartHome"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}" Margin="5,0,-5,0">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="27*"/>
+            <ColumnDefinition Width="656*"/>
+        </Grid.ColumnDefinitions>
+        <Rectangle Fill="Black"  HorizontalAlignment="Stretch" Height="80" Stroke="Black" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <StackPanel HorizontalAlignment="Left" Margin="5,102,0,31" Width="347" Grid.Column="1">
+            <!--the StackPanel below contains the Connect/Cancel/Disconnect Buttons. They are bound to the BluetoothManager and use the UIConverter to enable/disable-->
+            <StackPanel>
+                <StackPanel Orientation="Horizontal" DataContext="{StaticResource BluetoothManager}" Height="63" Margin="40,0,30,0">
+                    <ProgressRing  IsActive="{Binding State, ConverterParameter=BluetoothInProgress, Converter={StaticResource UIConverter}}" Margin="10,-5,10,35" Height="33" Width="34" />
+                    <TextBlock Text="Подключение" HorizontalAlignment="Center" FontWeight="SemiBold" FontSize="26" Margin="0,-1,0,0" Width="195" />
+                </StackPanel>
+
+
+                <StackPanel Orientation="Horizontal" DataContext="{StaticResource BluetoothManager}">
+                    <Button Content="Подключить" IsEnabled="{Binding State, ConverterParameter=BluetoothConnect, Converter={StaticResource UIConverter}}" Width="128" Click="BluetoothConnect_Click" />
+                    <Button Content="Отмена" Command="{Binding BluetoothCancelCommand}" IsEnabled="{Binding State, ConverterParameter=BluetoothConnecting, Converter={StaticResource UIConverter}}" Width="100" />
+                    <Button Content="Отключить" Command="{Binding BluetoothDisconnectCommand}" IsEnabledChanged="Button_IsEnabledChanged" IsEnabled="{Binding State, ConverterParameter=BluetoothDisconnect, Converter={StaticResource UIConverter}}" Click="disconnect_Click" />
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Grid.Row="2" HorizontalAlignment="Center">
+                <TextBlock Text="Ввод пароля:"  FontSize="16" Margin="0,30,0,5" />
+                <StackPanel Orientation="Horizontal" DataContext="{StaticResource BluetoothManager}">
+                    <TextBox x:Name="Passw1" HorizontalAlignment="Left"  TextWrapping="Wrap" Width="163" Height="21" IsEnabled="{Binding State, ConverterParameter=BluetoothDisconnect, Converter={StaticResource UIConverter}}"/>
+                    <Button x:Name="Button10_Copy1" Click="Button_Click18" Content="ОК" Width="63" Tag="RED" IsEnabled="{Binding State, ConverterParameter=BluetoothDisconnect, Converter={StaticResource UIConverter}}" />
+                </StackPanel>
+            </StackPanel>
+            <ScrollViewer x:Name="scrollViewer" VerticalScrollBarVisibility="Auto" Margin="0,0,10,0" Height="463">
+                <TextBlock x:Name="console" TextWrapping="Wrap" Height="428" Width="309"/>
+            </ScrollViewer>
+
+
+        </StackPanel>
+        <TextBlock FontSize="36"  Margin="0,0,15,34"  Text="Умный дом" Grid.Column="1" Height="40" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="184" Opacity="0.5" />
+        <ProgressRing IsActive="{Binding State, ConverterParameter=BluetoothInProgress, Converter={StaticResource UIConverter}}" Margin="635,377,657,371" Grid.Column="1" Height="20" Width="20" />
+
+        <TextBlock Style="{StaticResource SubheaderTextBlockStyle}" Margin="0,0,5,12" FontStyle="Italic" Text="Smart Home Systems" HorizontalAlignment="Right" Width="243" Height="30" VerticalAlignment="Bottom" Grid.Column="1" Opacity="0.3" />
+        <TextBlock FontSize="26" Text="Ручное управление"  FontWeight="SemiBold" Margin="0,101,265,0" Height="30" VerticalAlignment="Top" Grid.Column="1" HorizontalAlignment="Right" Width="260" />
+        <Button x:Name="Button10" Click="Button_Click19" Content="ОК" Width="63" Tag="RED" HorizontalAlignment="Right" Margin="0,587,159,0" VerticalAlignment="Top" Grid.Column="1" Height="38" />
+        <TextBox x:Name="Temp" HorizontalAlignment="Right" Margin="0,590,261,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64" Height="32" Grid.Column="1"/>
+        <ToggleSwitch x:Name="SO" OffContent="Закрыто" OnContent="Открыто" FontSize="20" Header="Серверное отделение" HorizontalAlignment="Right" Margin="0,401,321,0" VerticalAlignment="Top" Toggled="ToggleSwitch_Toggled" Grid.Column="1" Height="87" Width="210"/>
+        <ToggleSwitch x:Name="Kor" OffContent="Откл" OnContent="Вкл" FontSize="20" Header="Коридор" HorizontalAlignment="Right" Margin="0,172,377,0" VerticalAlignment="Top" Toggled="ToggleSwitch_Toggled_Kor" Grid.Column="1" Width="154" Height="87"/>
+        <ToggleSwitch x:Name="Gost" OffContent="Откл" OnContent="Вкл" FontSize="20" Header="Гостиная" HorizontalAlignment="Right" Margin="0,172,224,0" VerticalAlignment="Top" Toggled="ToggleSwitch_Toggled_Gost" Grid.Column="1" Width="154" Height="87"/>
+        <ToggleSwitch x:Name="Van" OffContent="Откл" OnContent="Вкл" FontSize="20" Header="Ванная" HorizontalAlignment="Right" Margin="0,172,71,0" VerticalAlignment="Top" Toggled="ToggleSwitch_Toggled_Van" Grid.Column="1" Height="87" Width="154"/>
+        <ToggleSwitch x:Name="Per" OffContent="Откл" OnContent="Вкл" FontSize="20" Header="Периметр" HorizontalAlignment="Right" Margin="0,252,377,0" VerticalAlignment="Top" Toggled="ToggleSwitch_Toggled_Per" Grid.Column="1" Width="154" Height="87"/>
+        <ToggleSwitch x:Name="All" OffContent="Откл" OnContent="Вкл" FontSize="20" Header="Общий" HorizontalAlignment="Right" Margin="0,252,204,0" VerticalAlignment="Top" Toggled="ToggleSwitch_Toggled_All" Grid.Column="1" Width="174" Height="87"/>
+        <TextBlock FontSize="26"  FontWeight="SemiBold" Margin="444,102,650,0" Height="71" VerticalAlignment="Top" HorizontalAlignment="Center" Width="218" Grid.Column="1" >
+        	<Run Text="Автоматическое "/>
+        	<LineBreak/>
+        	<Run Text="    управление"/>
+        </TextBlock>
+        <ToggleSwitch x:Name="Security" OffContent="Откл" OnContent="Вкл" FontSize="20" Header="Охранный режим"  Margin="420,410,708,0" HorizontalAlignment="Center" VerticalAlignment="Top" Toggled="ToggleSwitch_Security" Width="184" Grid.Column="1" Height="87"/>
+        <TextBlock FontSize="24" Text="Параметры"  FontWeight="SemiBold" Margin="0,405.5,429.5,0" Height="30" VerticalAlignment="Top" HorizontalAlignment="Right" Width="260" Grid.Column="1" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" >
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="-90"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBlock FontSize="26" Text="C°"  FontWeight="SemiBold" Margin="0,591,224,0" Height="31" VerticalAlignment="Top" HorizontalAlignment="Right" Width="29" Grid.Column="1" />
+        <Button x:Name="Button5_Copy" HorizontalAlignment="Center" Click="Button_Click5" Content="Информация с датчиков" Width="228" Tag="RED" Margin="423,517,661,0" VerticalAlignment="Top" Grid.Column="1" Height="38" />
+        <ToggleSwitch x:Name="Inform"  OffContent="Откл" OnContent="Вкл" FontSize="20" Header="Автоинформатор" HorizontalAlignment="Right" Margin="0,401,100,0" VerticalAlignment="Top" Toggled="ToggleSwitch_Toggled_Inf" Grid.Column="1" Height="87" Width="167"/>
+        <Image Height="46" Margin="0,0,202,34" VerticalAlignment="Bottom" Source="150x150.png" HorizontalAlignment="Right" Width="59" Grid.Column="1" Opacity="0.5"/>
+        <AppBarButton Grid.Column="1" HorizontalAlignment="Right" Icon="Help" Label="Помощь" Margin="0,-6,160,0" VerticalAlignment="Top" Width="100" Click="HelpPage" Height="88"/>
+        <AppBarButton Grid.Column="1" HorizontalAlignment="Right" Icon="Send" Label="Поддержка" VerticalAlignment="Top" Width="100" Margin="0,-6,0,0" Click="SendMassage" Height="88"/>
+        <AppBarButton Grid.Column="1" HorizontalAlignment="Right" Icon="Favorite" Label="Оценить" Margin="0,-6,80,0" VerticalAlignment="Top" Width="100" Click="AppBarButton_Click" Height="88"/>
+        <ToggleSwitch x:Name="Ventil" OffContent="Откл" OnContent="Вкл" FontSize="20" Header="Вентиляция" HorizontalAlignment="Right" Margin="0,485,58,0" VerticalAlignment="Top" Toggled="ToggleSwitch_Ventil" Grid.Column="1" Height="87" Width="209"/>
+        <ToggleSwitch x:Name="Zanav" OffContent="Закрыты" OnContent="Открыты" FontSize="20" Header="Занавески" HorizontalAlignment="Right" Margin="0,485,357,0" VerticalAlignment="Top" Toggled="ToggleSwitch_Zanav" Grid.Column="1" Height="87" Width="174"/>
+        <TextBlock FontSize="46"  Margin="426,10,458,0" FontWeight="SemiBold" Text="Панель управления" HorizontalAlignment="Center" Width="428" Height="70" VerticalAlignment="Top" Grid.Column="1" />
+        <TextBlock FontSize="20" Text="Задать температуру:" Margin="0,594,330,0" Height="30" VerticalAlignment="Top" HorizontalAlignment="Right" Width="194" Grid.Column="1" />
+        <CheckBox x:Name="checkLight" FontSize="18" Content="Освещение" Grid.Column="1" HorizontalAlignment="Center" Margin="423,187,764,0" VerticalAlignment="Top" Unchecked="checkLight_unchecked" Checked="checkLight_Checked"/>
+        <CheckBox x:Name="checkZanav" Content="Занавески" FontSize="18" Grid.Column="1" HorizontalAlignment="Center" Margin="423,241,774,0" VerticalAlignment="Top"  Unchecked="checkZanav_unchecked" Checked="checkZanav_Checked"/>
+        <CheckBox x:Name="checkVentil" Content="Вентиляция" FontSize="18" Grid.Column="1" HorizontalAlignment="Center" Margin="423,301,763,0" VerticalAlignment="Top" Unchecked="checkVentil_unchecked" Checked="checkVentil_Checked"/>
+        <TextBlock FontSize="24" Text="Освещение"  FontWeight="SemiBold" Margin="0,226.5,485,0" Height="30" VerticalAlignment="Top" Grid.Column="1" HorizontalAlignment="Right" Width="149" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" >
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="-90"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <Button x:Name="interf" HorizontalAlignment="Center" Click="interf_update" Content="Обновить интерфейс" Width="228" Tag="RED" Margin="423,569,661,0" VerticalAlignment="Top" Grid.Column="1" Height="38" />
+
+    </Grid>
+
+</Page>

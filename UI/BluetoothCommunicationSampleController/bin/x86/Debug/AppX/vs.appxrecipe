@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>VIKTOR</Machine>
+    <WindowsUser>Виктор</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>5119viva-os.549635E31E4D1</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x86\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>640984929EEFBEFDB57E8A9F303666A414499565DFCA2EB43832C1CB23A1C797</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>5119viva-os.549635E31E4D1_1.1.0.2_x86__jmdp0dngavbh6</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>5119viva-os.549635E31E4D1_jmdp0dngavbh6!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>5119viva-os.549635E31E4D1</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=4199E62F-3377-45FE-A7FE-1F141280D303</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.2</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\bin\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-21T15:00:57.018</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\bin\x86\Debug\SmartHome.exe">
+      <PackagePath>SmartHome.exe</PackagePath>
+      <Modified>2015-10-29T17:47:03.240</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Виктор\Desktop\C#\packages\TCD.Controls.3.0.1\lib\netcore451\TCD.Controls.dll">
+      <PackagePath>TCD.Controls.dll</PackagePath>
+      <Modified>2014-11-13T11:24:19.622</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\150x150.png">
+      <PackagePath>150x150.png</PackagePath>
+      <Modified>2015-09-18T08:07:25.290</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\310x310.png">
+      <PackagePath>310x310.png</PackagePath>
+      <Modified>2015-09-18T07:44:12.141</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-15T16:56:33.075</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-15T16:31:07.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\Assets\Logo.scale-140.png">
+      <PackagePath>Assets\Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-15T16:37:06.285</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\Assets\Logo.scale-180.png">
+      <PackagePath>Assets\Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-15T16:36:01.260</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\Assets\Logo.scale-80.png">
+      <PackagePath>Assets\Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-15T16:38:40.731</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-15T16:51:59.219</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-15T16:48:33.922</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\Assets\SplashScreen.scale-140.png">
+      <PackagePath>Assets\SplashScreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-15T16:47:49.032</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\Assets\SplashScreen.scale-180.png">
+      <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-15T16:46:45.928</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-15T16:53:26.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\Assets\Square70x70Logo.scale-100.png">
+      <PackagePath>Assets\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-15T16:54:52.419</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-15T16:50:21.553</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-15T16:41:27.587</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-09-20T15:42:43.184</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\bin\x86\Debug\SendSettingsFlyout.xbf">
+      <PackagePath>SendSettingsFlyout.xbf</PackagePath>
+      <Modified>2015-09-22T16:07:13.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\bin\x86\Debug\HelpSettingsFlyout.xbf">
+      <PackagePath>HelpSettingsFlyout.xbf</PackagePath>
+      <Modified>2015-09-22T16:07:13.914</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-10-11T15:18:19.808</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\bin\x86\Debug\SmartHome.xr.xml">
+      <PackagePath>SmartHome.xr.xml</PackagePath>
+      <Modified>2015-10-05T12:09:51.891</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Виктор\Desktop\C#\packages\TCD.Controls.3.0.1\lib\netcore451\TCD.Controls\LabeledProgressBar.xbf">
+      <PackagePath>TCD.Controls\LabeledProgressBar.xbf</PackagePath>
+      <Modified>2014-11-13T11:24:19.622</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Виктор\Desktop\C#\packages\TCD.Controls.3.0.1\lib\netcore451\TCD.Controls\ResourceHoldingUserControl.xbf">
+      <PackagePath>TCD.Controls\ResourceHoldingUserControl.xbf</PackagePath>
+      <Modified>2014-11-13T11:24:19.622</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Виктор\Desktop\C#\packages\TCD.Controls.3.0.1\lib\netcore451\TCD.Controls\TCD.Controls.xr.xml">
+      <PackagePath>TCD.Controls\TCD.Controls.xr.xml</PackagePath>
+      <Modified>2014-11-13T11:24:19.638</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-09-21T15:00:56.461</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

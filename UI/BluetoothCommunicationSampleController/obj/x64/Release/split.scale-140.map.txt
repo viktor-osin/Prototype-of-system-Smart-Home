@@ -1,0 +1,8 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.scale-140"
+"ResourceDimensions"		"scale-140"
+
+[Files]
+"C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x64\Release\split.scale-140.pri"			"resources.pri"
+"C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x64\Release\PackageLayout\Assets\SplashScreen.scale-140.png"			"Assets\SplashScreen.scale-140.png"
+"C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\obj\x64\Release\PackageLayout\Assets\Logo.scale-140.png"			"Assets\Logo.scale-140.png"

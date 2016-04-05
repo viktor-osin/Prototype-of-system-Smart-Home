@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="5119viva-os.549635E31E4D1" version="1.0" primary="true">
+		<Qualifiers>
+			<Scale>80, 100</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://5119viva-os.549635E31E4D1/Files/App.xbf">
+				<Candidate type="Path">
+					<Value>App.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="BluetoothCommunicationSampleController.xr.xml" uri="ms-resource://5119viva-os.549635E31E4D1/Files/BluetoothCommunicationSampleController.xr.xml">
+				<Candidate type="Path">
+					<Value>BluetoothCommunicationSampleController.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://5119viva-os.549635E31E4D1/Files/MainPage.xbf">
+				<Candidate type="Path">
+					<Value>MainPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="BadgeLogo.png" uri="ms-resource://5119viva-os.549635E31E4D1/Files/Assets/BadgeLogo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\BadgeLogo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Logo.png" uri="ms-resource://5119viva-os.549635E31E4D1/Files/Assets/Logo.png">
+					<Candidate qualifiers="Scale-80" isDefault="true" type="Path">
+						<Value>Assets\Logo.scale-80.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallLogo.png" uri="ms-resource://5119viva-os.549635E31E4D1/Files/Assets/SmallLogo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://5119viva-os.549635E31E4D1/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square310x310Logo.png" uri="ms-resource://5119viva-os.549635E31E4D1/Files/Assets/Square310x310Logo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Square310x310Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square70x70Logo.png" uri="ms-resource://5119viva-os.549635E31E4D1/Files/Assets/Square70x70Logo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Square70x70Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://5119viva-os.549635E31E4D1/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://5119viva-os.549635E31E4D1/Files/Assets/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Wide310x150Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="TCD.Controls">
+				<NamedResource name="LabeledProgressBar.xbf" uri="ms-resource://5119viva-os.549635E31E4D1/Files/TCD.Controls/LabeledProgressBar.xbf">
+					<Candidate type="Path">
+						<Value>TCD.Controls\LabeledProgressBar.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ResourceHoldingUserControl.xbf" uri="ms-resource://5119viva-os.549635E31E4D1/Files/TCD.Controls/ResourceHoldingUserControl.xbf">
+					<Candidate type="Path">
+						<Value>TCD.Controls\ResourceHoldingUserControl.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="TCD.Controls.xr.xml" uri="ms-resource://5119viva-os.549635E31E4D1/Files/TCD.Controls/TCD.Controls.xr.xml">
+					<Candidate type="Path">
+						<Value>TCD.Controls\TCD.Controls.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

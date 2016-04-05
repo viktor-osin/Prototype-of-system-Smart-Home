@@ -1,0 +1,4 @@
+MainPackage=C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\bin\x64\Release\BluetoothCommunicationSampleController_1.1.0.2_Bundle\BluetoothCommunicationSampleController_1.1.0.2_x64.appx
+SymbolPackage=C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\AppPackages\BluetoothCommunicationSampleController_1.1.0.2_Test\BluetoothCommunicationSampleController_1.1.0.2_x64.appxsym
+ResourcePack=C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\bin\x64\Release\BluetoothCommunicationSampleController_1.1.0.2_Bundle\BluetoothCommunicationSampleController_1.1.0.2_scale-140.appx
+ResourcePack=C:\Users\Виктор\Desktop\C#\BluetoothCommunicationSampleController\bin\x64\Release\BluetoothCommunicationSampleController_1.1.0.2_Bundle\BluetoothCommunicationSampleController_1.1.0.2_scale-180.appx
